@@ -6,6 +6,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
+.container {
+  max-width: 1030px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 .header {
   height: 100vh;
   background-repeat: no-repeat;
@@ -50,4 +56,28 @@ body {
 }
 .header__sale {
   margin-top: 40px;
+}
+.main {
+  text-align: center;
+  padding-top: 60px;
+}
+.main__title {
+  margin-bottom: 60px;
+  font-size: 41px;
+  color: #d07a2d;
+}
+.main__text {
+  font-size: 30px;
+}
+.main__img {
+  padding: 90px 0;
+}
+.project__title {
+  margin-bottom: 110px;
+  font-size: 41px;
+  color: #d07a2d;
+  font-weight: 700;
+}
+.footer {
+  text-align: center;
 }
