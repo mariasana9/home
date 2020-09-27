@@ -78,6 +78,25 @@ body {
   color: #d07a2d;
   font-weight: 700;
 }
+.gallery__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery__inner img {
+  display: block;
+}
 .footer {
   text-align: center;
+}
+.footer .phone {
+  font-weight: 700;
+}
+.footer__email {
+  padding-top: 40px;
+  padding-bottom: 150px;
+  color: #2f8bc5;
+  font-size: 30px;
+  font-weight: 300;
+  border-bottom: 1px solid  #2f8bc5;
+  /* font-family: "Lato", sans-serif; */
 }
